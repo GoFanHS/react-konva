@@ -216,6 +216,7 @@ const KonvaRenderer = ReactFiberReconciler({
   },
 
   createTextInstance(text, rootContainerInstance, internalInstanceHandle) {
+    console.log('inside src');
     invariant(
       false,
       'Text components are not supported for now in ReactKonva.'
